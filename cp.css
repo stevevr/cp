@@ -1,0 +1,449 @@
+@charset "utf-8";
+/* CSS Document */
+/* font-family: 'News Cycle', sans-serif;
+
+font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Open+Sans:wght@400;800&display=swap');
+
+.navbar-nav.navbar-center {
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+}
+
+:root {
+	--border-size: 0.125rem;
+	--duration: 250ms;
+	--ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+	--font-family: monospace;
+	--color-primary: white;
+	--color-secondary: black;
+	--color-tertiary: dodgerblue;
+	--shadow: rgba(0, 0, 0, 0.1);
+	--space: 1rem;
+}
+
+.navbar-brand {
+	display: block;
+}
+
+body {
+	background: #101010;
+	color: white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+	margin-top: 150px;
+}
+
+.category {
+	color: #fff !important;
+	text-decoration: none;
+	font-family: "News Cycle", sans-serif;
+	font-weight: 700;
+	font-size: 1.0rem;
+	padding: 0.8rem;
+	border: 3px solid #000;
+}
+
+.nav-link {
+	font-family: "News Cycle", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	border-bottom: 3px solid #000;
+	padding:0 0 0px 0 !important;
+	margin:0 10px;
+	display: inline-block;
+}
+
+.nav-link:hover {
+	border-width: 0px;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+	color: #fff;
+}
+
+.active .nav-link {
+	border-bottom: 3px solid #333;
+}
+
+.nav {
+	padding: 7px;
+}
+
+.navbar-toggler {
+	padding: 0.3rem 0.6rem;
+	font-size: 1.5rem;
+}
+
+.navbar-toggler i {
+	color: #fff;
+}
+
+/* a:link,
+a:visited {
+	color: #fff !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+} */
+
+a:hover {
+	text-decoration: none;
+}
+
+p {
+	/* font-family: "Open Sans", sans-serif;
+	font-weight: 400; */
+	color: #fff !important;
+
+	font-family: "News Cycle", sans-serif;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+h3 {
+	border-bottom-color: white;
+}
+
+#gallery {
+	text-align: center;
+	margin: 0px auto;
+}
+
+.panel {
+	margin: 0px;
+	padding: 0px;
+}
+
+.panel img {
+	padding: 0px;
+}
+
+#spacer {
+	display: block;
+	width: 210px;
+	height: 67px;
+	margin: 30px auto;
+}
+
+.copy {
+	position: absolute;
+	bottom: 12px;
+	right: 85px;
+	display: block;
+	margin: 20px;
+	font-size: 11px;
+}
+
+#nav {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#nav a:link,
+#nav a:active,
+#nav a:visited {
+	border: 1px solid #000;
+}
+
+#nav a:hover {
+	border: 1px solid #fff;
+}
+
+#nav a.current:link,
+#nav a.current:active,
+#nav a.current:visited {
+	border: 1px solid #333;
+}
+
+#nav a.current:hover {
+	border: 1px solid #fff;
+}
+
+#nav img {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-collapse {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.panel {
+	text-align: left;
+}
+
+table {
+	margin: 0px auto;
+}
+
+table tr td {
+	vertical-align: top;
+	padding: 10px;
+}
+
+.caption {
+	margin-top: 10px;
+}
+
+footer {
+	font-size: 0.7rem;
+	background: rgb(0,0,0);
+	/* background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(16,16,16,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(16,16,16,1) 100%);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(16,16,16,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#101010",GradientType=1);  */
+}
+
+footer p {
+	font-size: 0.8rem;
+	margin: 30px 0 30px 0;
+	text-align: center;
+}
+
+footer a {
+	width: 100%;
+	display: block;
+}
+
+#jdlogo {
+	max-height: 50px;
+	max-width: 40px !important;
+}
+
+.frame {
+	display: block;
+}
+
+.frame img {
+	border: 10px solid black;
+	background-color: black;
+	margin: 40px 0;
+	/* box-shadow: 0px 0px 30px rgb(10, 10, 10);
+	-moz-box-shadow: 0px 0px 30px rgb(10, 10, 10);
+	-webkit-box-shadow: 0px 0px 40px rgb(10, 10, 10);
+	-khtml-box-shadow: 0px 0px 30px rgb(10, 10, 10); */
+}
+
+.bg-dark {
+	background-color: black !important;
+}
+
+/* .navbar-toggler {
+	position: absolute;
+	top: -70px;
+	right: 10px;
+} */
+
+#logo {
+	display: block;
+	/* width: 150px; */
+	height: 40px;
+	width: auto;
+	/* margin: 30px auto; */
+	max-width: 400px;
+	min-width: 200px;
+	transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+
+}
+.navbar-brand {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+	border-color: rgb(255, 255, 255);
+}
+
+#contactText {
+	width: 100%;
+	position: absolute;
+	top: 20%;
+}
+
+
+
+/* #contactText p,
+#contactText a {
+	font-family: "News Cycle", sans-serif;
+	font-weight: 700;
+	font-size: 1.4rem;
+	color: #fff !important;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+} */
+
+#contactText p {
+	padding: 0 30px;
+}
+
+#contactText p,
+#contactText a {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	font-size: 1rem;
+	color: rgba(0, 0, 0, 0.3) !important;
+	/* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); */
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+.fixed-top {
+	z-index:1031 !important;
+}
+
+.fixed-bottom {
+	z-index:1030 !important;
+}
+
+.navbar-collapse .navbar-nav {
+	height: 60vh;
+}
+
+.gallery {
+	padding-top: 180px;
+}
+
+/* Firefox */
+html {
+  scrollbar-color: #333 #aaa;
+  scrollbar-width:thin;
+}
+
+/* WebKit and Chromiums */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 0px;
+}
+
+nav {
+ min-height:70px;	
+}
+
+/* .homeToggle {
+	top:5px;
+}
+
+#navbarTogglerDemo01 {
+	position: absolute; top: 50px; left: 0px; width: 100%;
+} */
+
+/* img {
+	background: #F1F1FA;
+	width: 400px;
+	height: 300px;
+	display: block;
+	margin: 10px auto;
+	border: 0;
+  } */
+
+/*.panel img { margin:0px auto; text-align:center; position:!important }*/
+@media (min-width: 400px) {
+	#contactText {
+		top: 30%;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	#logo {
+		height: 85px;
+	}
+	#contactText p {
+		padding: 0 30px;
+	}
+	
+	#contactText p,
+	#contactText a {
+		font-size: 1.2rem;
+	}
+	#jdlogo {
+		max-width: 50px !important;
+	}
+
+	.category {
+		display: block;
+	}
+
+	#contactText {
+		top: 30%;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#contactText p,
+	#contactText a {
+		font-size: 1.4rem;
+	}
+	.navbar-collapse .navbar-nav {
+		height: inherit;
+	}
+	#contactText {
+		top: 35%;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-toggler {
+		position:absolute;
+		top: 10px;
+		right: 15px;
+	}
+	/* #logo {
+		margin-top: 10px !important;
+		margin-bottom: 10px !important;
+	} */
+}
+
+/* @media (max-width: 991px) {
+	#logo {
+		width: 200px;
+	}
+
+	.category {
+		display: block;
+	}
+} */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	/* #logo {
+		width: 300px;
+	} */
+
+	.main {
+		margin-top: 200px;
+	}
+	#contactText {
+		top: 40%;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	/* #logo {
+		width: 400px;
+	} */
+
+	.category {
+		display: inline-block;
+	}
+
+	.main {
+		margin-top: 250px;
+	}
+}
